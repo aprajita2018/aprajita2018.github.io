@@ -146,7 +146,7 @@ a {
   overflow: hidden; }
   .site-hero, .site-hero .row {
     height: 60vh;
-    min-height: 500px; }
+    min-height: 300px; }
   .site-hero:before {
     content: "";
     position: absolute;
@@ -472,6 +472,17 @@ a {
       -webkit-transition: none;
       -o-transition: none;
       transition: none; } }
+
+  .section-education {
+    /* background: #f6f6f6; */
+    border-right: #4ebe2ac4 0.5px solid;
+  }
+
+  .section-experience {
+    /* background: #f6f6f6; */
+    border-left: #4fbe2ac4 0.5px solid;
+  }
+
 
 .resume-item {
   padding: 40px;
